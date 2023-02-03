@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionery App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <div class="container">
+        <!-- logo, night-mode, font-change  -->
+        <div class="header">
+            <div class="logo">
+                DictioneryAPI
+            </div>
+            <div class="mode">
+                <div class="light-dark-mode-btn" id="light-dark-mode" data-mode="light">
+                    <div class="ball" id="light-dark-mode-circle"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="search" id="search-box">
+            <input type="text" name="" id="search-word-input" required>
+            <button type="submit" class="search-btn" id="search-btn">
+                <span class="material-symbols-outlined">
+                    search
+                </span>
+            </button>
+        </div>
+
+        <div class="word-info">
+            <div class="search-word">
+                <h1 id="search-word">like</h1>
+                <p id="phonetics"></p>
+            </div>
+            <div class="info" id="info">
+                <div class="word-info">
+                    <h2>noun</h2>
+                    <h3>Meaning</h3>
+                    <ul>
+                        <li>To enjoy, be pleased by; favor; be in favor of.</li>
+                        <li>To derive pleasure of, by or with someone or something.</li>
+                        <li>To have an appearance or expression; to look; to seem to be (in a specified condition).</li>
+                        <li>To prefer and maintain (an action) as a regular habit or activity.</li>
+                        <li>To find attractive; to prefer the company of; to have mild romantic feelings for</li>
+                        <li>To show support for, or approval of, something posted on the Internet by marking it with a vote.</li>
+                        <li>(with 'would' and in certain other phrases) To want, desire. See also would like.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
+
+
+
+
+
+
